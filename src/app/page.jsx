@@ -63,12 +63,12 @@ export default function Home() {
 							</div>
 							<div className={styles.block}>
 								<span className={styles.margin}>
-									Unleash your child's inner engineer at the Robotics
-									Workshop where we make learning about Arduino and
-									robotics a thrilling experience. With every course,
-									students build their own device or robot, which they
-									take home - a perfect blend of education and
-									excitement!
+									Unleash your {"child's"} inner engineer at the
+									Robotics Workshop where we make learning about
+									Arduino and robotics a thrilling experience. With
+									every course, students build their own device or
+									robot, which they take home - a perfect blend of
+									education and excitement!
 								</span>
 							</div>
 						</div>
