@@ -67,8 +67,8 @@ export default function Home() {
 									Workshop where we make learning about Arduino and
 									robotics a thrilling experience. With every course,
 									students build their own device or robot, which they
-									take home - a perfect blend of
-									education and excitement!
+									take home - a perfect blend of education and
+									excitement!
 								</span>
 							</div>
 						</div>
@@ -98,7 +98,7 @@ export default function Home() {
 				<div>
 					<p>
 						Ready to explore the world of Programming? Call us now at +20
-						111 153 4795 and secure your spot!
+						111 153 4795 and secure your spot!
 					</p>
 				</div>
 			</div>
