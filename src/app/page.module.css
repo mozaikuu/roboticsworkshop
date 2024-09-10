@@ -25,6 +25,17 @@
 	align-items: center;
 }
 
+.aboutMeText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+}
+
+.margin {
+	margin: 15px;
+}
+
 .containerLeft {
 	display: flex;
 	justify-content: right;
@@ -51,16 +62,20 @@
 	gap: 100px;
 }
 
-.left {
-	width: 100%;
+.block {
 	background-color: #888;
 	border-radius: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.right {
-	width: 100%;
+.block2 {
 	background-color: #888;
-	border-radius: 25%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .formatting {

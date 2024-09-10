@@ -18,13 +18,25 @@ export default function Home() {
 						/>
 					</div>
 				</div>
+				<div className={styles.aboutMeText}>
+					<div className={styles.block2}>
+						<span className={styles.margin}>
+							Spark Curiosity, Build Robots!
+						</span>
+					</div>
+				</div>
 				<div className={styles.containerLeft}>
 					<div className={styles.main}>
 						<div className={styles.mainGrid}>
-							<div className={styles.left}>
-								<p>hello</p>
+							<div className={styles.block}>
+								<span className={styles.margin}>
+									Dive into the exciting world of robotics and
+									electronics with our hands-on workshops for young
+									creators! Learn the basics of Arduino and robotics,
+									and take home the innovative projects you build.
+								</span>
 							</div>
-							<div className={styles.right}>
+							<div className={styles.block}>
 								<Image
 									className={styles.formatting}
 									width={300}
@@ -39,7 +51,7 @@ export default function Home() {
 				<div className={styles.containerRight}>
 					<div className={styles.main}>
 						<div className={styles.mainGrid}>
-							<div className={styles.left}>
+							<div className={styles.block}>
 								<Image
 									className={styles.formatting}
 									width={300}
@@ -48,14 +60,24 @@ export default function Home() {
 									src={Img2}
 								/>
 							</div>
-							<div className={styles.right}>
-								<p>hello</p>
+							<div className={styles.block}>
+								<span className={styles.margin}>
+									Unleash your child's inner engineer at the Robotics
+									Workshop where we make learning about Arduino and
+									robotics a thrilling experience. With every course,
+									students build their own device or robot, which they
+									take home - a perfect blend of
+									education and excitement!
+								</span>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div>
-					<p>contact us</p>
+					<p>
+						Ready to explore the world of Programming? Call us now at +20
+						111 153 4795 and secure your spot!
+					</p>
 				</div>
 			</div>
 		</>
