@@ -6,8 +6,6 @@
 		rgba(223, 7, 7, 1) 49%,
 		rgba(55, 49, 190, 1) 100%
 	);
-	width: 30%;
-	height: 30%;
 	border-radius: 50%;
 }
 
@@ -22,6 +20,14 @@
 	justify-content: center;
 	align-items: center;
 	margin: 15px;
+}
+
+.block2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #888;
 }
 
 .margin {
@@ -45,6 +51,7 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 25%;
+	margin: 15px;
 }
 
 .mainGrid {
@@ -52,24 +59,19 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 100px;
+	border-radius: 2%;
 }
 
 .block {
-	background-color: #888;
+	/* background-color: #888; */
 	border-radius: 25%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.block2 {
-	background-color: #888;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 10px;
 }
 
 .formatting {
 	border-radius: 25%;
+	width: 100%;
 }

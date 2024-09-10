@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import portrait from "../Assets/Images/youssefRabei.png";
 import Img1 from "../Assets/Images/Wiring.jpg";
 import Img2 from "../Assets/Images/BigTable.jpg";
+import Img3 from "../Assets/Images/Wiring2.jpg";
 
 export default function Home() {
 	return (
@@ -69,6 +70,27 @@ export default function Home() {
 									take home - a perfect blend of
 									education and excitement!
 								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className={styles.containerLeft}>
+					<div className={styles.main}>
+						<div className={styles.mainGrid}>
+							<div className={styles.block}>
+								<span className={styles.margin}>
+									Course Materials: Arduino, Sensors, Motors, LEDs.
+									Course curriculum: Arduino, Robotics.
+								</span>
+							</div>
+							<div className={styles.block}>
+								<Image
+									className={styles.formatting}
+									width={300}
+									height={300}
+									alt="self portrait"
+									src={Img3}
+								/>
 							</div>
 						</div>
 					</div>
